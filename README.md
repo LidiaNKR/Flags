@@ -6,7 +6,7 @@
 1. Экран прокрутки флагов в окошке, по нажатию на кнопку.
 
 <p align="center" width="100%">
-    <img width="30%" src="">
+    <img width="30%" src="https://github.com/LidiaNKR/Flags/blob/65870091f45b2d0105f7229ba2875bfc24850cd6/Gif/Preview.gif">
 </p>
 
 # Используемый стек технологий
