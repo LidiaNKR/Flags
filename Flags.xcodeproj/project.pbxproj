@@ -8,17 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		F8B2DC7B2BAEA33300EB2315 /* FlagsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2DC7A2BAEA33300EB2315 /* FlagsApp.swift */; };
-		F8B2DC7D2BAEA33300EB2315 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2DC7C2BAEA33300EB2315 /* ContentView.swift */; };
 		F8B2DC7F2BAEA33500EB2315 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B2DC7E2BAEA33500EB2315 /* Assets.xcassets */; };
 		F8B2DC822BAEA33500EB2315 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B2DC812BAEA33500EB2315 /* Preview Assets.xcassets */; };
+		F8B2DC8C2BAEA3EE00EB2315 /* FlagsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2DC8B2BAEA3EE00EB2315 /* FlagsView.swift */; };
+		F8B2DC8E2BAEA40700EB2315 /* FlagsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2DC8D2BAEA40700EB2315 /* FlagsViewModel.swift */; };
+		F8B2DC912BAEA44F00EB2315 /* Flags.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B2DC902BAEA44F00EB2315 /* Flags.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F8B2DC772BAEA33300EB2315 /* Flags.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Flags.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B2DC7A2BAEA33300EB2315 /* FlagsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagsApp.swift; sourceTree = "<group>"; };
-		F8B2DC7C2BAEA33300EB2315 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8B2DC7E2BAEA33500EB2315 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8B2DC812BAEA33500EB2315 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8B2DC8B2BAEA3EE00EB2315 /* FlagsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagsView.swift; sourceTree = "<group>"; };
+		F8B2DC8D2BAEA40700EB2315 /* FlagsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagsViewModel.swift; sourceTree = "<group>"; };
+		F8B2DC902BAEA44F00EB2315 /* Flags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flags.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +56,9 @@
 			isa = PBXGroup;
 			children = (
 				F8B2DC7A2BAEA33300EB2315 /* FlagsApp.swift */,
-				F8B2DC7C2BAEA33300EB2315 /* ContentView.swift */,
-				F8B2DC7E2BAEA33500EB2315 /* Assets.xcassets */,
-				F8B2DC802BAEA33500EB2315 /* Preview Content */,
+				F8B2DC882BAEA35900EB2315 /* Sources */,
+				F8B2DC892BAEA3A000EB2315 /* Flags */,
+				F8B2DC8F2BAEA42800EB2315 /* Model */,
 			);
 			path = Flags;
 			sourceTree = "<group>";
@@ -65,6 +69,32 @@
 				F8B2DC812BAEA33500EB2315 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8B2DC882BAEA35900EB2315 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F8B2DC7E2BAEA33500EB2315 /* Assets.xcassets */,
+				F8B2DC802BAEA33500EB2315 /* Preview Content */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F8B2DC892BAEA3A000EB2315 /* Flags */ = {
+			isa = PBXGroup;
+			children = (
+				F8B2DC8B2BAEA3EE00EB2315 /* FlagsView.swift */,
+				F8B2DC8D2BAEA40700EB2315 /* FlagsViewModel.swift */,
+			);
+			path = Flags;
+			sourceTree = "<group>";
+		};
+		F8B2DC8F2BAEA42800EB2315 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F8B2DC902BAEA44F00EB2315 /* Flags.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +167,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8B2DC7D2BAEA33300EB2315 /* ContentView.swift in Sources */,
+				F8B2DC8E2BAEA40700EB2315 /* FlagsViewModel.swift in Sources */,
+				F8B2DC8C2BAEA3EE00EB2315 /* FlagsView.swift in Sources */,
 				F8B2DC7B2BAEA33300EB2315 /* FlagsApp.swift in Sources */,
+				F8B2DC912BAEA44F00EB2315 /* Flags.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,7 +298,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Flags/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Flags/Sources/Preview Content\"";
 				DEVELOPMENT_TEAM = 69V683996A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -295,7 +327,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Flags/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"Flags/Sources/Preview Content\"";
 				DEVELOPMENT_TEAM = 69V683996A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
