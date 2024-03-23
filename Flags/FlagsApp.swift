@@ -11,7 +11,7 @@ import SwiftUI
 struct FlagsApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            FlagsView()
         }
     }
 }
